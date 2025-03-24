@@ -1,7 +1,7 @@
 body {
     background-color: #00aaff; /* Sky blue background */
     color: white; /* White text for contrast */
-    font-size: auto;
+    font-size: 18px;
 }
   * {
     margin: 0;  /* Removes default margin */
