@@ -75,32 +75,13 @@ body {
 .bn:hover {
     background-color: black; /* Slightly darker blue on hover */
 }
- @media (max-width: 768px) {
+/* Small screen (phones) */
+@media (max-width: 480px) {
     nav {
-        font-size: 20px;
-        padding: 20px;
         flex-direction: column;
+        text-align: center;
     }
-
-    nav a {
-        font-size: 20px;
-        padding: 12px 18px;
-    }
-
-    button {
-        font-size: 22px;
-        padding: 15px 25px;
-         width: 100%;
-    }
-    
-       
-    
-    h1{
-        font-size:2rem;
-    } 
-    p{ 
-        font-size:1rem
-    }
+    background-color:darkblue;
 }
 
         
@@ -127,3 +108,32 @@ footer a {
 footer a:hover {
     text-decoration: underline; /* Underline links on hover */
 }
+ @media (max-width: 768px) {
+    nav {
+        font-size: 20px;
+        padding: 20px;
+        flex-direction: column;
+    }
+
+    nav a {
+        font-size: 20px;
+        padding: 12px 18px;
+    }
+
+    button {
+        font-size: 22px;
+        padding: 15px 25px;
+         width: 100%;
+    }
+    
+       
+    
+    h1{
+        font-size:2rem;
+    } 
+    p{ 
+        font-size:1rem
+    }
+     background-color:darkyellow;
+}
+
